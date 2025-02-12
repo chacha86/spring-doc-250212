@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @SecurityRequirement(name = "bearerAuth")
-@Tag(name = "ApiV1MemberController", description = "회원 관련 API222")
+@Tag(name = "ApiV1MemberController", description = "회원 관련 API")
 @RestController
 @RequestMapping("/api/v1/members")
 @RequiredArgsConstructor
